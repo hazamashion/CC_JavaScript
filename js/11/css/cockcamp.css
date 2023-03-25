@@ -1,0 +1,78 @@
+/*ヘッダー*/
+.carousel {
+    position: relative;
+}
+.slick-next {
+   position: absolute;
+   right: 0;
+   top: 50%;
+   z-index: 7;
+}
+.slick-prev {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 7;
+}
+.flex {
+    display: flex;
+}
+/*メイン*/
+/*新着レシピ*/
+h1 {
+    font-size: 18px;
+    color: #664432;
+}
+/*レシピ名*/
+h2 {
+    font-size: 16px;
+    color: #664432;
+    font-weight: normal;
+}
+/*レシピ紹介*/
+h3 {
+    font-size: 14px;
+    color: #664432;
+    font-weight: normal;
+}
+.main_content-top {
+    width: 100%;
+    padding: 10px;
+    border-bottom: solid 2px #D3C9C5;
+}
+.main_content-bottom {
+    justify-content: center;
+}
+.main_content-bottom a {
+    text-decoration: none;
+    color: black;
+}
+.new_recipe {
+    margin: 30px;
+}
+.new_recipe img {
+    width: 200px;
+}
+.new_recipe h2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.hide {
+    display: none;
+}
+.modaal-container {
+    width: 860px;
+}
+.modaal-content-container {
+    text-align: center;
+}
+.modaal-content-container h3{
+    text-align: left;
+}
+/*フッター*/
+.copy_right {
+    justify-content: center;
+    border-top: solid 2px #D3C9C5;
+    padding: 30px 0px;
+}
